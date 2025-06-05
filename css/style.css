@@ -8842,7 +8842,7 @@ h1, h2, h3, h4, h5,
   overflow-x: scroll; }
 
 .table {
-  min-width: 400px !important;
+  min-width: 450px !important;
   width: 100%; }
   .table th {
     font-weight: 500; }
@@ -8879,7 +8879,7 @@ h1, h2, h3, h4, h5,
     padding: 15px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important; }
     .table tbody tr td.product-name h3 {
-      font-size: 14px; }
+      font-size: 12px; }
     .table tbody tr td.product-name .rated span {
       color: #01d28e; }
       .table tbody tr td.product-name .rated span:nth-child(1) {
@@ -8908,7 +8908,7 @@ h1, h2, h3, h4, h5,
           font-size: 10px; }
         .table tbody tr td.price h3 span.num {
           color: #1089ff;
-          font-size: 16px;
+          font-size: 14px;
           position: relative; }
         .table tbody tr td.price h3 span.per {
           font-size: 10px;
