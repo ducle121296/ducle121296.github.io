@@ -8842,7 +8842,7 @@ h1, h2, h3, h4, h5,
   overflow-x: scroll; }
 
 .table {
-  min-width: 1000px !important;
+  min-width: 400px !important;
   width: 100%; }
   .table th {
     font-weight: 500; }
@@ -8876,15 +8876,10 @@ h1, h2, h3, h4, h5,
         border-color: #343a40 transparent transparent transparent; }
   .table tbody tr td {
     vertical-align: middle;
-    padding: 30px 0;
+    padding: 15px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important; }
-    .table tbody tr td.car-image .img {
-      display: block;
-      width: 180px;
-      height: 100px;
-      margin: 0 auto; }
     .table tbody tr td.product-name h3 {
-      font-size: 18px; }
+      font-size: 14px; }
     .table tbody tr td.product-name .rated span {
       color: #01d28e; }
       .table tbody tr td.product-name .rated span:nth-child(1) {
@@ -8910,16 +8905,16 @@ h1, h2, h3, h4, h5,
           position: absolute;
           top: 0;
           left: -10px;
-          font-size: 14px; }
+          font-size: 10px; }
         .table tbody tr td.price h3 span.num {
           color: #1089ff;
-          font-size: 20px;
+          font-size: 16px;
           position: relative; }
         .table tbody tr td.price h3 span.per {
-          font-size: 14px;
+          font-size: 10px;
           color: rgba(0, 0, 0, 0.4); }
       .table tbody tr td.price .subheading {
-        font-size: 14px; }
+        font-size: 10px; }
       .table tbody tr td.price .btn-custom {
         position: absolute;
         top: 50%;
@@ -8956,9 +8951,9 @@ h1, h2, h3, h4, h5,
       .table tbody tr td.price:hover.price {
         background: #01d28e; }
       .table tbody tr td.price:hover .btn-custom {
-        opacity: 1; }
+        opacity: 0.8; }
       .table tbody tr td.price:hover .price-rate {
-        opacity: 0; }
+        opacity: 0.8; }
 
 .ftco-about {
   position: relative;
